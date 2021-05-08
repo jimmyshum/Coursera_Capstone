@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
+### Exploring population distribution by different age groups in Singapore
 
-You can use the [editor on GitHub](https://github.com/jimmyshum/Coursera_Capstone/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Introduction**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Singapore is one of the well-known financial countries in Asia. Although the whole country is not large, a total of 5 regions, 55 planning areas and more than 300 subzones consist in the country.
 
-### Markdown
+By identifing the distributions of populations in different age groups, a more precise decision of facilities development can be made. Such as setting up more healthcare clinics in regions of higher popluation of elderly, or building more recreational factilites areas in the region with higher population of childrens.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Finding the popultation distribtuion of different age groups may have the factilites planning to the governement, or even setting up related bussiness to certain age groups.
 
-```markdown
-Syntax highlighted code block
+**Methodology**
 
-# Header 1
-## Header 2
-### Header 3
+Population data of sinagpore in 2015 is selected from data.gov.sg. A total records of
 
-- Bulleted
-- List
+For the age group mapping, in order to simplify the caterization, the related ranges of age are defined in the table below.
 
-1. Numbered
-2. List
+| **Age** | **Age group** |
+| --- | --- |
+| 0 - 10 | Children |
+| 11 - 20 | Adolescent |
+| 21 - 30 | Young adult |
+| 31 - 65 | Adult |
+| 65 + | Elderly |
 
-**Bold** and _Italic_ and `Code` text
+**Discussion**
 
-[Link](url) and ![Image](src)
-```
+3 age groups are focused to be discussed in this study. The children group (with age ranged from 0 - 10), adolescent group (with age ranged from 11 - 20) and elderly (with age ranged 65 or above)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+As the raw data table involves data with all gender (&quot;Total&quot;), male only and female only. The &quot;Total&quot; data is selected only for further analysis.
 
-### Jekyll Themes
+| ![](RackMultipart20210508-4-1h29xz0_html_c50171784781a058.png) |
+| --- |
+| Raw data table of population by subzones in SG |
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jimmyshum/Coursera_Capstone/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+For the age data, since it is represented by range format, it is better to do some transformation in order to make the age data analysisable. Hence, mean age of the age range is taken for the referenced age.
 
-### Support or Contact
+Since the age data is in word description, it should be converted to number format in order to be able to do further analysis.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+E.g. For the age range of 0 - 4, median of the range is calculated and age of 2 is retrieved.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_9e0182940e0259e0.png) |
+| --- |
+| Data with age range by subzones in SG |
+
+After convertion, the age is processed and displayed as the following table below.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_9440611cb35e6238.png) |
+| --- |
+| Data with processed age by subzones in SG |
+
+Also, it is better to have some processing to the naming of the planning area. After processing, the result data is shown below.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_b753fb4ffbc50805.png) |
+| --- |
+| Processed data table of population by subzones in SG |
+
+Next is the differentation of different age groups. Age group is defined according to the age definition table mentioned above.
+
+The data table below reflects the population of the children group.
+
+By ranking the results in the top 10, Tampines East ranks 1st with population of 24080, Woodlands East ranks 2nd with population of 22280, while Jurong West Central ranks 3rd with population of 18120.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_73ee4a750d05b6fd.png) |
+| --- |
+| Data table of children population by subzones in SG |
+
+By mapping the result into the bubbles, it is noticed that the regions of north sides and east sides have a larger popultation of children. After finding the location of the places, Tampine belongs to the east side of Singapore, while Woodlands belongs to the north side of Singapore. This supports the result of this mapping.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_ac0c57d540c6df5d.png) |
+| --- |
+| Children population distribtion by subzones in Singapore |
+
+For the adolescent group, Tampines East ranks 1st with population of 33560, Woodlands East ranks 2nd with population of 29880, while Yunnan ranks 3rd with population of 20250.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_ba9f07fadbaba1b6.png) |
+| --- |
+| Figure 3. Data table of adolescent population by subzones in SG |
+
+The bubble map shows a larger poplutation of adolescants found in northern and eastern regions. As Tampine belongs to the east side of Singapore, and Woodlands belongs to the north side of Singapore. This supports the result of this mapping.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_9f6946de9bd857ee.png) |
+| --- |
+| Adolescents population distribtion by subzones in Singapore |
+
+| ![](RackMultipart20210508-4-1h29xz0_html_8df019de742bb86d.png) |
+| --- |
+| Data table of elderly population by subzones in SG |
+
+The bubble map shows a larger poplutation of adolescants found in east and middle regions. As Tampine belongs to the east side of Singapore, and Bedok belongs to the middle of Singapore. This supports the result of this mapping.
+
+| ![](RackMultipart20210508-4-1h29xz0_html_442257e77d4efb9e.png) |
+| --- |
+| Elderly population distribution by subzones in Singapore |
+
+**Conclusion**
+
+In conclusion, simliarity is found in larger populations for the age group of children and adolescents. It is found that northern regions and eastern regions of Singapore have a larger population of children and adolescents, while the northern side and middle side have a larger population of elderly.
+
+It is commonly found that the Tampine region has both a larger size of children, adolescents and elderly populations. As as result, governement or other parties may consider to develop more facilities or recreation complex to cater for the larger popultation or children, adolescents and elderly. Besides, some cross age group faclilties in this region can also be considered. While for the north region like Woodlands and east region like Tampines, facilities to children and adolescents can be enhanced.
