@@ -38,19 +38,19 @@ Since the age data is in word description, it should be converted to number form
 
 E.g. For the age range of 0 - 4, median of the range is calculated and age of 2 is retrieved.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_9e0182940e0259e0.png) |
+| ![](assets/image_1.png) |
 | --- |
 | Data with age range by subzones in SG |
 
 After convertion, the age is processed and displayed as the following table below.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_9440611cb35e6238.png) |
+| ![](assets/image_2.png) |
 | --- |
 | Data with processed age by subzones in SG |
 
 Also, it is better to have some processing to the naming of the planning area. After processing, the result data is shown below.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_b753fb4ffbc50805.png) |
+| ![](assets/image_3.png) |
 | --- |
 | Processed data table of population by subzones in SG |
 
@@ -60,35 +60,35 @@ The data table below reflects the population of the children group.
 
 By ranking the results in the top 10, Tampines East ranks 1st with population of 24080, Woodlands East ranks 2nd with population of 22280, while Jurong West Central ranks 3rd with population of 18120.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_73ee4a750d05b6fd.png) |
+| ![](assets/image_4.png) |
 | --- |
 | Data table of children population by subzones in SG |
 
 By mapping the result into the bubbles, it is noticed that the regions of north sides and east sides have a larger popultation of children. After finding the location of the places, Tampine belongs to the east side of Singapore, while Woodlands belongs to the north side of Singapore. This supports the result of this mapping.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_ac0c57d540c6df5d.png) |
+| ![](assets/image_5.png) |
 | --- |
 | Children population distribtion by subzones in Singapore |
 
 For the adolescent group, Tampines East ranks 1st with population of 33560, Woodlands East ranks 2nd with population of 29880, while Yunnan ranks 3rd with population of 20250.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_ba9f07fadbaba1b6.png) |
+| ![](assets/image_6.png) |
 | --- |
 | Figure 3. Data table of adolescent population by subzones in SG |
 
 The bubble map shows a larger poplutation of adolescants found in northern and eastern regions. As Tampine belongs to the east side of Singapore, and Woodlands belongs to the north side of Singapore. This supports the result of this mapping.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_9f6946de9bd857ee.png) |
+| ![](assets/image_7.png) |
 | --- |
 | Adolescents population distribtion by subzones in Singapore |
 
-| ![](RackMultipart20210508-4-1h29xz0_html_8df019de742bb86d.png) |
+| ![](assets/image_8.png) |
 | --- |
 | Data table of elderly population by subzones in SG |
 
 The bubble map shows a larger poplutation of adolescants found in east and middle regions. As Tampine belongs to the east side of Singapore, and Bedok belongs to the middle of Singapore. This supports the result of this mapping.
 
-| ![](RackMultipart20210508-4-1h29xz0_html_442257e77d4efb9e.png) |
+| ![](assets/image_9.png) |
 | --- |
 | Elderly population distribution by subzones in Singapore |
 
